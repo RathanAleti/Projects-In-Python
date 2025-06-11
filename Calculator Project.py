@@ -25,6 +25,8 @@ game_over = True
 while game_over:
     previous_number = ""
     first_number =int(input("What's the first number? : ")).__float__()
+    for symbol in Operations: # Using for loop to display the operators 
+        print(symbol)
     math_operators =input("What's is a mathematical operator? : ")
     second_number = int(input("What's the next number? : ")).__float__()
     if math_operators in Operations: # Using the if to catch the operators 
